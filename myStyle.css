@@ -1,10 +1,28 @@
 body {
     color:teal;
+    font-size: 1.25em;
+    font-family: Cambria, serif;
 }
 h1 {
     color:midnightblue;
-    background-color:wheat
+    background-color:linen;
+    width: fit-content;
+    font-style:italic
 }
 strong {
     color:rebeccapurple;
+    background-color:linen;
+    font-weight: 800;
+}
+a:link{
+    color:cornflowerblue
+}
+a:visited{
+    color:lightgrey
+}
+a:hover{
+    color:olivedrab
+}
+a:active{
+    color:mediumvioletred
 }
