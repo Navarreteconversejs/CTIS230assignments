@@ -3,13 +3,13 @@ body {
     font-size: 1.25em;
     font-family: Cambria, serif;
 }
-h1 {
+h1, h3 {
     color:midnightblue;
     background-color:linen;
     width: fit-content;
     font-style:italic
 }
-strong {
+p strong {
     color:rebeccapurple;
     background-color:linen;
     font-weight: 800;
@@ -25,4 +25,16 @@ a:hover{
 }
 a:active{
     color:mediumvioletred
+}
+p.intro{
+    color: mediumslateblue;
+}
+p.conclusion{
+    color:dodgerblue
+}
+img#img001 {
+    width: 10%;
+}
+img#img002 {
+    width: 20%
 }
