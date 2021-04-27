@@ -13,8 +13,6 @@ function onMouseOut() {
     myitem.style.backgroundColor= "white";
 }
 
-
-
 thebutton = document.getElementById("thebutton");  
 otheritem = document.getElementById("buttontest");
 
@@ -27,8 +25,8 @@ otheritem = document.getElementById("buttontest");
 thesecondbutton = document.getElementById("thesecondbutton");  
 secondtest = document.getElementById("secondtest");
 
-thesecondbutton.addEventListener("click", onClick);
-    function onClick() {  
+thesecondbutton.addEventListener("click", onSecondButtonClick);
+    function onSecondButtonClick() {  
         secondtest.style.backgroundColor = "black";  
     }
 
