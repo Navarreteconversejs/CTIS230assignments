@@ -5,11 +5,11 @@ myitem = document.getElementById("firsttest");
 
     function onClick() {  
         myitem.style.color= "red";  
-        myitem.style.backgroundColor= "black"
+        myitem.style.backgroundColor= "black";
     }
 function onMouseOut() {
-    myitem.style.color= "teal"
-    myitem.style.backgroundColor= "white"
+    myitem.style.color= "teal";
+    myitem.style.backgroundColor= "white";
 }
 //The first line asks the webpage to get the element by the name of the ID. In this case the name was "firsttest". Javascript will then know this element as myItem.
 //The second line after myitem. gives the text the action that it needs to be prepared to act on. In this case, the action occurs after the item is clicked. The "action" is called a function.
