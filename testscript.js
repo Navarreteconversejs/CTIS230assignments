@@ -32,6 +32,13 @@ thesecondbutton.addEventListener("click", onClick);
         secondtest.style.backgroundColor = "black";  
     }
 
+    textentry = document.getElementById("myinput");  
+    textentry.addEventListener("change", onChange);
+    function onChange() {  
+        newtext = myinput.value;  
+        otheritem.innerHTML = newtext;  
+    }
+
 
         
  
