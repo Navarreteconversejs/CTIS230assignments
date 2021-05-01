@@ -37,11 +37,13 @@ p.conclusion{
     color:dodgerblue
 }
 img#img001 {
-    width: 10%;
+    width: 100%
+    height:auto;
     float: right;
 }
 img#img002 {
-    width: 20%;
+    width: 100%;
+    height:auto;
     float:right;
 }
 div.information {
