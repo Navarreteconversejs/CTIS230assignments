@@ -80,14 +80,12 @@ button {
     body {
         margin-left: 5%;
         margin-right: 5%;
-        font-size: ;
     }
 } 
 @media screen and (max-width: 30em) {
     body {
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 2.0vw;
     }
    
 }
