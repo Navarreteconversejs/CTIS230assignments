@@ -56,6 +56,7 @@ div.nav {
     height: 100px;
     width: calc(30%);
     background-color: linen;
+    text-align: center;
 }
 div.navbar {
     display: flex;
@@ -80,9 +81,6 @@ button {
     body {
         margin-left: 5%;
         margin-right: 5%;
-    }
-    div.nav {
-        font-size: 4vw;
     }
 } 
 @media screen and (max-width: 30em) {
