@@ -63,7 +63,7 @@ myCardImage = document.getElementById("Police");
         else if (myCardDiv.style.position == "fixed") {
             myCardDiv.style.position = "";
             myCardImage.style.width = "50px";
-            myCardImage.src = "Images/NOPed.png";
+            myCardImage.src = "Images/NODep.png";
         }
     }
     
