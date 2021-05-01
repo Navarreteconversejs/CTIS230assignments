@@ -51,7 +51,7 @@ div.information {
 }
 div.nav {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 2.5vw;
     border: 2px solid midnightblue;
     height: 100px;
     width: calc(30%);
@@ -76,10 +76,13 @@ button {
     flex-direction: column;
     
 }
-@media screen and (max-height: 26em) {
+@media screen and (max-height: 24em) {
     body {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    div.nav {
+        font-size: 4vw;
     }
 } 
 @media screen and (max-width: 30em) {
