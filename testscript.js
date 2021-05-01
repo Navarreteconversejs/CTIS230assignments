@@ -8,6 +8,7 @@ myitem = document.getElementById("firsttest");
         myitem.style.color= "red";  
         myitem.style.backgroundColor= "black";
     }
+
 function onMouseOut() {
     myitem.style.color= "teal";
     myitem.style.backgroundColor= "white";
@@ -46,6 +47,27 @@ thesecondbutton.addEventListener("click", onSecondButtonClick);
         newtext = myinput.value;  
         otheritem.innerHTML = newtext;  
     }
+
+myCardDiv = document.getElementById("Policeimage");
+myCardImage = document.getElementById("Police");
+    myCardDiv.addEventListener("click", expandImage);
+    
+    function expandImage() {
+       
+        if (myCardDiv.style.position == "") {
+            myCardDiv.style.position = "fixed";
+            myCardDiv.style.top = "50%";
+            myCardDiv.style.left = "30%";
+            myCardImage.style.width = "auto";
+        }
+        else if (myCardDiv.style.position == "fixed") {
+            myCardDiv.style.position = "";
+            myCardImage.style.width = "50px";
+            myCardImage.src = "Images/NOPed.png";
+        }
+    }
+    
+    
 
 
         

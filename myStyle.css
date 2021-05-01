@@ -44,6 +44,10 @@ img#img002 {
     height:auto;
     float:right;
 }
+img#Police {
+    width: 50px;
+}
+
 div.information {
     padding-top: 1em;
     padding-bottom: 1em;
